@@ -2,7 +2,7 @@
 
 ## Author
 
-**Your Name**
+**Deeptiranjan Swain**
 [Portfolio](https://deeptiranjanswain.netlify.app/)
 
 This is a simple Django project created for learning purposes. It serves as a dummy portfolio website where you can showcase your skills, projects, and contact information.
