@@ -1,0 +1,45 @@
+{% extends "base.html" %}
+
+{% block title %}About{% endblock title %}
+{% block aboutActive %} active {% endblock aboutActive %}
+
+{% block body %}
+<div class="container">
+    <h2 class="my-3 text-center">About me</h2>
+    <div class="d-flex flex-row justify-content-between">
+        <div class="card" style="width: 18rem;">
+            <img src="https://source.unsplash.com/500x300/?html,css,javascript" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Frontend Marvels: HTML, CSS, JavaScript Mastery</h5>
+                <p class="card-text">Craft Interactive Web Experiences with HTML, CSS, and JavaScript Wizardry!</p>
+            </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+            <img src="https://source.unsplash.com/500x300/?reactjs,reactnative,androiddevelopment" class="card-img-top"
+                alt="...">
+            <div class="card-body">
+                <h5 class="card-title">React Revolution: Building Next-Gen Apps</h5>
+                <p class="card-text">Dive into React.js, React Native, and Android Development for Cutting-Edge
+                    Applications!</p>
+            </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+            <img src="https://source.unsplash.com/500x300/?figma,graphicdesign,flyer" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Visual Vibes: Figma Design & Graphic Artistry</h5>
+                <p class="card-text">Design Eye-Catching Flyers and Graphics with Figma Expertise and Graphic Design
+                    Prowess!</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container mt-5">
+    <h1>One of my many projects</h1>
+    <div class="embed-responsive w-100">
+        <iframe class="embed-responsive-item w-100" style="height: 70vh;"
+            src="https://www.youtube.com/embed/1PB5QQZQYKw?si=LOvsoK642m1uLWzY" allowfullscreen
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
+    </div>
+</div>
+{% endblock body %}
